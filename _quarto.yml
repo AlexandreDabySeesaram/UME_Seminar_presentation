@@ -1,0 +1,45 @@
+################################################################################
+###                                                                          ###
+### Created by Alexandre Daby-Seesaram                                       ###
+###                                                                          ###
+### École Polytechnique, Palaiseau, France                                   ###
+###                                                                          ###
+################################################################################
+
+
+project:
+  resources:
+    # - "Template"
+    - "Resources"
+  type: website
+  output-dir: docs
+
+
+format: 
+  revealjs:
+    include-in-header:
+      - text: |
+          <script>
+            window.PlotlyConfig = {MathJaxConfig: 'local'};
+          </script>
+    self-contained-math: true
+    html-math-method: mathjax
+    css: Template/ENSTA.css
+    smaller: true
+    slide-number: c/t
+    show-slide-number: all
+    code-fold: true
+    theme: Template/ENSTA_template.scss
+    logo: Template/E4H_ENSTA.svg
+    date-format: long
+    title-slide-attributes: 
+        data-background-image: "Template/BG.svg"
+jupyter: python3
+execute:
+  freeze: auto
+progress: true
+touch: true
+controls: true
+loadIcons: true
+bibliography: ../Pres-2026.bib
+csl: Template/apa.csl

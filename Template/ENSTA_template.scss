@@ -1,0 +1,171 @@
+/*-- scss:defaults --*/
+// Color system
+$white:    #F5F6FA !default;
+$blue: #170f38ff !default; // real one
+$teal: #3a46f5ff !default;
+$pink: #da3bf7ff !default;
+$blue-light: #ebedfeff !default;
+$gray-warm: #8E8581 !default;
+$gray-warm-light: #ECE8DC !default;
+$gray-cool: #53565A !default;
+$gray-cool-light: #888B8D !default;
+$green: #43B02A !default;
+$green-dark: #6B7E51 !default;
+$orange-X: #FE5000 !default;
+$red-light: #CE0037 !default;
+$red: #A92021 !default;
+
+
+$body-color: $blue;
+
+
+// colors
+$link-color: $teal !default;
+
+// fonts
+$presentation-font-size-root: 24px;
+
+body, .reveal {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*-- scss:rules --*/
+
+ul li { list-style-type: square}
+ul ul li { list-style-type: disc}
+ul ul ul li { list-style-type: circle}
+
+ul > li::marker {
+  color: $teal;
+}
+
+/* Second-level bullet */
+ul ul > li::marker {
+  color: $pink;
+}
+
+/* Third-level bullet */
+ul ul ul > li::marker {
+  color: $pink;
+}
+
+
+
+#title-slide {
+  .title {
+    font-size: 2em;
+    color: $blue-light;
+  }
+  .subtitle {
+    color: $blue-light;
+  }
+
+
+  .quarto-title-author {
+    padding-top: 40px;
+    color: $blue-light;
+  }
+
+  .date {
+    color: $blue-light !important;
+  }
+}
+
+
+
+section.slide h3 {
+  color: $blue ;
+  font-family: Lato, sans-serif ;
+  font-weight: normal;
+
+}
+
+.reveal .slide-logo {
+  height: 15% !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+// Slide numbers to the bottom-left
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 14px !important;
+  left: 50% !important;
+  top: unset !important;
+  color: $teal !important;
+  font-weight: bold !important;
+}
+
+
+
+
+
+// Custom boxes
+
+.mybox {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  border-radius: 0rem;
+  border-left: solid #acacac 0px;
+  border-right: solid 0px silver;
+  border-top: solid 0px silver;
+  border-bottom: solid 0px silver;
+  box-shadow: 4px 0px 5px rgba(23, 15, 56, 0.2);
+
+}
+
+
+
+.mybox-header {
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0.5em;
+
+  font-weight: bold;
+  opacity: 85%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background: linear-gradient(to right, $blue, $teal);
+  color: $blue-light !important;
+  height: 2em;
+  overflow: hidden;
+}
+
+
+.mybox-header-bis {
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  padding-bottom: 0.5em;
+
+  font-weight: bold;
+  opacity: 85%;
+  // font-size: 0.9rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  display: flex;
+  background: linear-gradient(to right, $teal, $pink);
+  color: $blue-light !important;
+  height: 2em;
+  overflow: hidden;
+}
+
+.mybox-header p {
+  padding-bottom: 0.5em;
+}
+
+.mybox-body {
+  font-weight: 400;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.mybox-body > :last-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+
+
+
+
+

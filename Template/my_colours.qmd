@@ -1,0 +1,8 @@
+$$
+\definecolor{Violet}{RGB}{162, 32, 185}
+\definecolor{Teal}{RGB}{0, 103, 127}
+\definecolor{Blue}{RGB}{58, 70, 245}
+\definecolor{Green}{RGB}{0,103,127} 
+\definecolor{LGreen}{RGB}{62,128,102} 
+\definecolor{red}{RGB}{206,0,55} 
+$$

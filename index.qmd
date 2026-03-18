@@ -1,0 +1,53 @@
+---
+title: "New seminar series at Pôle Mécanique"
+subtitle: "ENSTA seminar series"
+date: 19/03/2026
+author: 
+    - name: Alexandre Daby-Seesaram <sup><span style="color:#a6ce39ff">[{{< iconify fa-brands:orcid >}}](https://orcid.org/0000-0002-2374-0971)</span></sup>
+      email: alexandre.daby-seesaram@ensta.fr
+      affiliations:
+        - ref: ensta
+    - name: Camilla Zolesi 
+      email: camilla.zolesi@ensta.fr 
+      affiliations:
+        - ref: IMSIA 
+
+affiliations:
+- id: IMSIA
+  name: IMSIA, ENSTA, IP Paris, France
+- id: ensta
+  name: LMI, ENSTA, IP Paris, France
+---
+
+# I - Part I (Hidden) {visibility="hidden"}
+
+
+## ENSTA Seminar at Pôle Mécanique
+
+:::: {.columns}
+
+::: {.column width="30%"}
+
+* Monthly seminar
+  * 2pm
+  * Amphi 104
+* Anyone can be added on the mailling list
+  * Contact us if interested
+    * camilla.zolesi@ensta-paris.fr
+    * alexandre.daby-seesaram@ensta-paris.fr
+:::
+
+::: {.column width="70%"}
+
+<iframe width="100%" height="400" src="https://polemecanique.github.io://polemecanique.github.io/"></IFRAME>
+
+:::
+
+::::
+
+:::
+
+
+## References
+
+

@@ -1,0 +1,60 @@
+::: {.content-hidden}
+%%
+
+$$
+\usepackage{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{dsfont}
+
+
+
+% Needed in mathjax to mimic llbracket and rrbracket
+\newcommand{\llbracket}{\mathopen{~[\!\![~}}
+\newcommand{\rrbracket}{\mathclose{~]\!\!]}}
+
+
+\newcommand{\code}[1]{\texttt{#1}}
+% MATHS
+\DeclareMathOperator*{\argmin}{arg\,min} 
+\DeclareMathOperator*{\argmax}{arg\,max} 
+\newcommand{\dV}[0]{~\mathrm{d}\Omega}
+\newcommand{\intV}[0]{\int_{\Omega}}
+
+% Integration
+\newcommand{\dS}[0]{~\mathrm{d}A}
+\newcommand{\intS}[0]{\int_{\partial \Omega}}
+\newcommand{\intSd}[0]{\int_{\partial \Omega_d}}
+\newcommand{\intSn}[0]{\int_{\partial \Omega_N}}
+
+% Operators
+\renewcommand{\div}[0]{\boldsymbol{\nabla}}
+\newcommand{\matrice}[1]{\boldsymbol{#1}}
+\newcommand{\ftensor}[1]{\mathbb{#1}}
+\newcommand{\tensor}[1]{\boldsymbol{#1}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\newcommand{\four}[1]{{#1}_\omega}
+
+% Mechanical quantities
+\newcommand{\epsp}[0]{\underline{\underline{\varepsilon}}^p} % version 1
+\newcommand{\sigm}[0]{\mathcal{\boldsymbol{\sigma}}}
+\newcommand{\sigmPGD}[0]{\underline{\underline{\overline{\sigma}}}} % version 1
+\newcommand{\epspPGD}[0]{\underline{\underline{\overline{\varepsilon}}}^p} % version 1
+\newcommand{\uPGD}[0]{\vect{\overline{u}}} % version 1
+\newcommand{\eps}[0]{\mathcal{\boldsymbol{\varepsilon}}}
+\newcommand{\depsp}[0]{\dot{\underline{\underline{\varepsilon}}}^p} % version 1
+\newcommand{\dcepsp}[0]{\hat{\dot{\underline{\underline{\varepsilon}}}}^p} % version 1
+\newcommand{\tbr}[1]{\llbracket\mkern-5mu\llbracket #1 \rrbracket\mkern-5mu\rrbracket}
+\renewcommand{\d}{\mathrm{d}}
+
+\renewcommand{\dF}{\mathrm{det}\left(\matrice{F} \right)}
+
+% Parametric quantities
+\newcommand{\para}{\left\{\mu_i\right\}_{i \in \llbracket  1, \beta  \rrbracket}}
+
+$$
+
+
+
+:::
